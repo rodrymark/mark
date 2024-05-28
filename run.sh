@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-curl_output=$(curl -H "Content-type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", false],"id":1}' https://eth1.lava.build/lava-referer-528d9526-5f2f-4eb9-ac47-9f066be2b8f4/)
+curl_output=$(curl -H "Content-type: application/json" -X POST --data '{"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest", false],"id":1}' https://eth1.lava.build/lava-referer-69d78b41-cd82-40a2-9901-3864022689b7/)
 
 
 echo "$curl_output" >> Update.tsx
